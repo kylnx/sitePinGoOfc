@@ -1,0 +1,223 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.bg-primary-color {
+    background-color: rgb(95, 146, 201);
+}
+.bg-secundary-color {
+    background-color: white;
+}
+.bg-dark-color {
+    background-color: #050505;
+}
+.primary-color {
+    color: #050505;
+}
+.secondary-color{
+    color: #7a7a7a;
+}
+/*navbar*/
+
+#navbar{
+    border-bottom: 1px solid #7a7a7a;
+}
+#navbar a:hover{
+   color:  #7a7a7a; 
+}
+#navbar a.active{
+    border-bottom: 1px solid #050505;
+}
+.navbar-brand{
+    display: flex;
+}
+.navbar-brand img {
+    width: 40px;
+}
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
+/* slider*/
+
+#slider {
+    margin-top: 6.5em;
+    margin-bottom: 3em;
+}
+#slider .carousel-caption {
+    bottom: 1em;
+}
+#slider .carousel-caption h5 {
+    font-size: 1em;
+    text-shadow: #000 2px 2px;
+    color:white;
+}
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: #111;
+    font-size: 2em;
+}
+.carousel-indicators[data-bs-target] {
+
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+}
+.carousel-indicators .active {
+    background-color: #000;
+}
+@media(min-width: 768px){
+    #slider .carousel-caption {
+        bottom: 5em;
+        
+    } 
+
+    #slider .carousel-caption h5 {
+        font-size: 2em;
+        text-shadow: rgba(0, 0, 0, 0.678) 2px 3px;
+    }
+    .carousel-indicators{
+        bottom: 2em;
+    }
+}
+/* banners mini */
+
+#mini-banners {
+    margin-bottom: 4em;
+}
+#mini-banners .card {
+    padding: 2em 0.3em;
+    border-radius: 20;
+
+}
+#mini-banners i {
+ font-size: 4em;
+}
+#mini-banners .card-title {
+    margin-bottom: 1.5em;
+}
+#mini-banners p{
+    font-size: 13pt;
+    text-align: center;
+    color: black;
+}
+@media(min-width: 768px){
+    #mini-banners{
+        margin-top: -6em;
+    }
+}
+
+/*banners curiosidades */
+
+#mini-bannersCuriosidades {
+    margin-bottom: 4em;
+   border-radius: 70px;
+    padding: 30px;
+}
+
+#mini-bannersCuriosidades .card {
+    padding: 2em 0.3em;
+    border-radius: 20;
+}
+#mini-bannersCuriosidades i {
+    font-size: 4em;
+   }
+#mini-bannersCuriosidades .card-title {
+    margin-bottom: 1.5em;
+    color: yellow;
+}
+#mini-bannersCuriosidades p{
+    font-size: 13pt;
+    text-align: center;
+    color: black;
+}
+@media(min-width: 768px){
+    #mini-bannersCuriosidades{
+        margin-top: -6em;
+    }
+}
+
+
+
+/* destaque do app */
+#featured-container{
+    margin-bottom: 4em;
+    text-align: center;
+}
+.title{
+    font-size: 1.75em;
+    margin-bottom: .4em;
+    position: relative;
+}
+.title:before{
+    width: 75px ;
+    border-top: 4px solid #7a7a7a7a;
+    content: "";
+    position: absolute;
+    bottom: 2em;
+}
+#featured-images{
+    margin-top: 2em;
+}
+h3{
+    text-align: justify;
+    font-size: 13pt;
+}
+
+@media(min-width: 768px){
+    .title{
+        font-size: 2.4em;
+    }
+    .title:before {
+        bottom: 1.5em;
+    }
+}
+
+/* detalhes trabalho */
+
+#info-content{
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+
+@media(min-width: 768px){
+    #info-content {
+        padding: 3.5em;
+    }
+}
+
+/* footer */
+
+#footer{
+    color: black;
+}
+
+/*referencias*/
+
+.list-group{
+    margin-bottom: 80px;
+    padding: 40px;
+}
+.list-group li {
+    text-align: center;
+}
+
+/* gif */
+
+h6{
+    text-align: center;
+    margin-bottom: 70px;
+}
